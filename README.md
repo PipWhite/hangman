@@ -3,22 +3,26 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
+###Usage
+#### word_list
+The word_list variable is all the possible words you could be guessing from. Words of your choice may be added or removed from this list in the code, however the must all be lowercase and not contain any numbers or special characters for the game to work (must only contain lowercase alphabetical characters).
+
+### Playing the game
+To play the game you can simply run the milestone_5.py file and follow the instructions give.
+
+
 ### Methods
 
 #### ask_for_input()
-While loop asks for the user to input a single letter.
-Checks that the input has a length of one and is alphabetical.
-Prints a response if the input is invalid.
-While loop is broken if input is valid.
-Calls the check_guess() method with the users input as a parameter.
+While loop asks for the user to input a single letter. <br>
+Checks that the input has a length of one and is alphabetical.  <br>
+Prints a response if the input is invalid.  <br>
+While loop is broken if input is valid.  <br>
+Calls the check_guess() method with the users input as a parameter.  <br>
 
 #### check_guess(letter_guess)
 Takes the users guess as a parameter.
 Converts the guess to lowercase.
 checks if the letter is in the target word and prints an appropriate response
 
-### Usage
-1. Starting the game will randomly select a word from the word list
-2. Enter a single alphabetical character when prompted
-3. Input is checked to ensure it is a single alphabetical character. While loop is broken when a valid input is given.
-4. Input is then compared to the target word to see if it is part of the word or not.
+
