@@ -5,7 +5,8 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ### Usage
 #### word_list
-The word_list variable is all the possible words you could be guessing from. Words of your choice may be added or removed from this list in the code, however the must all be lowercase and not contain any numbers or special characters for the game to work (must only contain lowercase alphabetical characters).
+The word_list variable is all the possible words you could be guessing from. <br>
+Words of your choice may be added or removed from this list in the code, however the must all be lowercase and not contain any numbers or special characters for the game to work (must only contain lowercase alphabetical characters).
 
 ### Playing the game
 To play the game you can simply run the milestone_5.py file and follow the instructions give.
