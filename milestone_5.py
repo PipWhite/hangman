@@ -12,7 +12,7 @@ class Hangman:
         self.num_letters = len(set(self.target_word))
         self.list_of_guesses = []
         
-        for i in range(len(self.target_word)):
+        for letter in range(len(self.target_word)):
             self.word_guessed.append('_')
         
     # method that checks to see if the inputted letter matches any in the target word
@@ -21,9 +21,9 @@ class Hangman:
 
         if letter_guess in self.target_word:
             print(f'Good guess! {letter_guess} is in the word \n')
-            for i in range(len(self.target_word)):
-                if self.target_word[i] == letter_guess:
-                    self.word_guessed[i] = letter_guess
+            for letter in range(len(self.target_word)):
+                if self.target_word[letter] == letter_guess:
+                    self.word_guessed[letter] = letter_guess
             self.num_letters -= 1
         else:
             self.num_lives -= 1
