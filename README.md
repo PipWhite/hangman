@@ -3,7 +3,7 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-###Usage
+### Usage
 #### word_list
 The word_list variable is all the possible words you could be guessing from. Words of your choice may be added or removed from this list in the code, however the must all be lowercase and not contain any numbers or special characters for the game to work (must only contain lowercase alphabetical characters).
 
